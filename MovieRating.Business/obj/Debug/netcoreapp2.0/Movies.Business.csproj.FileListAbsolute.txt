@@ -1,0 +1,15 @@
+C:\Movies-master\Movies.Business\bin\Debug\netcoreapp2.0\Movies.Business.deps.json
+C:\Movies-master\Movies.Business\bin\Debug\netcoreapp2.0\Movies.Business.dll
+C:\Movies-master\Movies.Business\bin\Debug\netcoreapp2.0\Movies.Business.pdb
+C:\Movies-master\Movies.Business\bin\Debug\netcoreapp2.0\Movies.Domain.dll
+C:\Movies-master\Movies.Business\bin\Debug\netcoreapp2.0\Movies.Repository.dll
+C:\Movies-master\Movies.Business\bin\Debug\netcoreapp2.0\Movies.Domain.pdb
+C:\Movies-master\Movies.Business\bin\Debug\netcoreapp2.0\Movies.Domain.xml
+C:\Movies-master\Movies.Business\bin\Debug\netcoreapp2.0\Movies.Repository.pdb
+C:\Movies-master\Movies.Business\obj\Debug\netcoreapp2.0\Movies.Business.csprojAssemblyReference.cache
+C:\Movies-master\Movies.Business\obj\Debug\netcoreapp2.0\Movies.Business.csproj.CoreCompileInputs.cache
+C:\Movies-master\Movies.Business\obj\Debug\netcoreapp2.0\Movies.Business.AssemblyInfoInputs.cache
+C:\Movies-master\Movies.Business\obj\Debug\netcoreapp2.0\Movies.Business.AssemblyInfo.cs
+C:\Movies-master\Movies.Business\obj\Debug\netcoreapp2.0\Movies.Business.csproj.CopyComplete
+C:\Movies-master\Movies.Business\obj\Debug\netcoreapp2.0\Movies.Business.dll
+C:\Movies-master\Movies.Business\obj\Debug\netcoreapp2.0\Movies.Business.pdb

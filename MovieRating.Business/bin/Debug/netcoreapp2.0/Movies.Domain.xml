@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Movies.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Movies.Domain.DTO.Movie">
+            <summary>
+            Movie
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.Movie.Id">
+            <summary>
+            Id of movie
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.Movie.Title">
+            <summary>
+            Movies title
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.Movie.YearOfRelease">
+            <summary>
+            Year the movie was released
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.Movie.Genre">
+            <summary>
+            Movies genre
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.Movie.RunningTime">
+            <summary>
+            Running time of movie (in minutes)
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.Movie.AverageRating">
+            <summary>
+            Average user rating for the movie
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.Movie.AverageRatingForDisplay">
+            <summary>
+            AverageRating field rounded to the nearest 0.5 for display in the UI
+            </summary>
+        </member>
+        <member name="T:Movies.Domain.DTO.MovieRating">
+            <summary>
+            Users movie rating
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.MovieRating.UserId">
+            <summary>
+            Id of the user
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.MovieRating.MovieId">
+            <summary>
+            Id of the movie
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.MovieRating.Rating">
+            <summary>
+            User rating for the movie, must be zero or greater
+            </summary>
+        </member>
+        <member name="T:Movies.Domain.DTO.MovieSearchCriteria">
+            <summary>
+            Movie search criteria, used in movie searches.
+            At least one field must be completed to search
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.MovieSearchCriteria.Title">
+            <summary>
+            Movie title to search by, can be partial
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.MovieSearchCriteria.YearOfRelease">
+            <summary>
+            Year of movie release to search by
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.MovieSearchCriteria.Genres">
+            <summary>
+            List of genres to search by
+            </summary>
+        </member>
+        <member name="T:Movies.Domain.DTO.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.User.Id">
+            <summary>
+            Users id
+            </summary>
+        </member>
+        <member name="P:Movies.Domain.DTO.User.MovieRatings">
+            <summary>
+            List of moving ratings submitted by the user
+            </summary>
+        </member>
+        <member name="T:Movies.Domain.Enums.Genres">
+            <summary>
+            Movie genres
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Genres.Action">
+            <summary>
+            Action
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Genres.Comedy">
+            <summary>
+            Comedy
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Genres.Horror">
+            <summary>
+            Horror
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Genres.ScienceFiction">
+            <summary>
+            Science Fiction
+            </summary>
+        </member>
+        <member name="T:Movies.Domain.Enums.Validation.MovieRatingSaveValidationResults">
+            <summary>
+            Used to validate whether a movie rating can be saved or not
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Validation.MovieRatingSaveValidationResults.OK">
+            <summary>
+            Ok to save
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Validation.MovieRatingSaveValidationResults.NullRating">
+            <summary>
+            Null MovieRating object
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Validation.MovieRatingSaveValidationResults.InvalidUserId">
+            <summary>
+            Negative or zero user id
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Validation.MovieRatingSaveValidationResults.UserNotFound">
+            <summary>
+            User not found for given user id
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Validation.MovieRatingSaveValidationResults.InvalidMovieId">
+            <summary>
+            Negative or zero movie id
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Validation.MovieRatingSaveValidationResults.MovieNotfound">
+            <summary>
+            Movie not found for given movie id
+            </summary>
+        </member>
+        <member name="T:Movies.Domain.Enums.Validation.MovieSearchValidationResults">
+            <summary>
+            Used to validate if a search criteria can be submitted or not
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Validation.MovieSearchValidationResults.OK">
+            <summary>
+            OK to submit search
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Validation.MovieSearchValidationResults.NoCriteria">
+            <summary>
+            Null search criteria object
+            </summary>
+        </member>
+        <member name="F:Movies.Domain.Enums.Validation.MovieSearchValidationResults.InvalidCriteria">
+            <summary>
+            No search criteria set on search criteria object
+            </summary>
+        </member>
+    </members>
+</doc>

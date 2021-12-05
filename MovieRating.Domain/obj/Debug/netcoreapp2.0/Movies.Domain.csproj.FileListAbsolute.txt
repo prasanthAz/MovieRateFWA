@@ -1,0 +1,10 @@
+C:\Movies-master\Movies.Domain\bin\Debug\netcoreapp2.0\Movies.Domain.xml
+C:\Movies-master\Movies.Domain\bin\Debug\netcoreapp2.0\Movies.Domain.deps.json
+C:\Movies-master\Movies.Domain\bin\Debug\netcoreapp2.0\Movies.Domain.dll
+C:\Movies-master\Movies.Domain\bin\Debug\netcoreapp2.0\Movies.Domain.pdb
+C:\Movies-master\Movies.Domain\obj\Debug\netcoreapp2.0\Movies.Domain.csprojAssemblyReference.cache
+C:\Movies-master\Movies.Domain\obj\Debug\netcoreapp2.0\Movies.Domain.csproj.CoreCompileInputs.cache
+C:\Movies-master\Movies.Domain\obj\Debug\netcoreapp2.0\Movies.Domain.AssemblyInfoInputs.cache
+C:\Movies-master\Movies.Domain\obj\Debug\netcoreapp2.0\Movies.Domain.AssemblyInfo.cs
+C:\Movies-master\Movies.Domain\obj\Debug\netcoreapp2.0\Movies.Domain.dll
+C:\Movies-master\Movies.Domain\obj\Debug\netcoreapp2.0\Movies.Domain.pdb

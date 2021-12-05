@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MovieRating.API</name>
+    </assembly>
+    <members>
+        <member name="T:MovieRating.API.Controllers.MovieController">
+            <summary>
+            movie controller
+            </summary>
+        </member>
+        <member name="M:MovieRating.API.Controllers.MovieController.#ctor(MovieRating.Business.Interfaces.IMovieService)">
+            <summary>
+            ctor
+            </summary>
+            <param name="movieService"></param>
+        </member>
+        <member name="M:MovieRating.API.Controllers.MovieController.Post(MovieRating.Domain.DTO.Movie)">
+            <summary>
+            
+            </summary>
+            <param name="movie"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MovieRating.API.Controllers.SaveMovieRatingController">
+            <summary>
+            Saves movie ratings
+            </summary>
+        </member>
+        <member name="M:MovieRating.API.Controllers.SaveMovieRatingController.#ctor(MovieRating.Business.Interfaces.IRatingService)">
+            <summary>
+            ctor
+            </summary>
+            <param name="ratingService"></param>
+        </member>
+        <member name="M:MovieRating.API.Controllers.SaveMovieRatingController.Post(MovieRating.Domain.DTO.MovieRatings)">
+            <summary>
+            saves a movie rating
+            </summary>
+            <param name="movieRating"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MovieRating.API.Controllers.SearchMoviesController">
+            <summary>
+            Movie search
+            </summary>
+        </member>
+        <member name="M:MovieRating.API.Controllers.SearchMoviesController.#ctor(MovieRating.Business.Interfaces.IMovieService)">
+            <summary>
+            ctor
+            </summary>
+            <param name="movieService"></param>
+        </member>
+        <member name="M:MovieRating.API.Controllers.SearchMoviesController.Get(MovieRating.Domain.DTO.MovieSearchCriteria)">
+            <summary>
+            Searches movies by given criteria
+            Note: at least one field of the criteria object must be set
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MovieRating.API.Controllers.TopMoviesController">
+            <summary>
+            Gets top movies by user rating
+            </summary>
+        </member>
+        <member name="M:MovieRating.API.Controllers.TopMoviesController.#ctor(MovieRating.Business.Interfaces.IMovieService,MovieRating.Business.Interfaces.IUserService)">
+            <summary>
+            ctor
+            </summary>
+            <param name="movieService"></param>
+            <param name="userService"></param>
+        </member>
+        <member name="M:MovieRating.API.Controllers.TopMoviesController.Get">
+            <summary>
+            Get's top 5 movies across all users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MovieRating.API.Controllers.TopMoviesController.Get(System.Int32)">
+            <summary>
+            Gets top 5 movies for a specific user
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MovieRating.API.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MovieRating.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:MovieRating.API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MovieRating.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:MovieRating.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
